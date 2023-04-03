@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Formulario</title>
+    <style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+	</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,8 +35,16 @@
             </button>
         </a>
     </header>
-    <main>
-        Página chat
+    <main class="fondo">
+        <section class="Form-Registro">
+            <h4>Formulario para contactarme</h4>
+            <input class="Controls" type="text" name="Nombre" id="Nombres" placeholder="ingrese su Nombre">
+            <input class="Controls" type="text" name="Apellido" id="Apellidos" placeholder="ingrese su Apellido">
+            <input class="Controls" type="email" name="Correo" id="Correos" placeholder="ingrese su Correo">
+            <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+            <input class="boton" type="submit" value="Enviar">
+        </section>
+        <img class="lobito" src="source/lobo.png" alt="lobo">
     </main>
 </body>
 </html>
