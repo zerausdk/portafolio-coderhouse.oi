@@ -9,9 +9,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background: #f1f0f0;
+    font-family: pepito, sans-serif;
+    font-size: 16px;
 } 
 header{
     width:100%;
@@ -49,6 +52,7 @@ main{
 main article{
     width: 50%;
     box-sizing: border-box;
+    padding: 0 10px;
 }
 .presentacion{
     width: 100%;
@@ -131,105 +135,105 @@ footer{
     margin-top: 40px;
     max-height: 500px;
     height: 235px;
-    background-size: contain;
 }
 footer ul{
     list-style: none;
 }
 footer li{
     border-bottom: 1px solid #fff;
-    padding-top: 7px;
-    font-family: pepitoB;
-    margin: auto;
-    margin-left: 650px;
-    font-size: 30px;
-    background-size: contain;
+padding-top: 0.5em;
+font-family: pepitoB;
+margin: auto;
+margin-left: 20%;
+font-size: 1.5em;
+background-size: contain;
 }
 footer button{
     background: #FFEB37;
-    color: #131313;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    font-family: pepitoB;
-    font-size: 25px;
+color: #131313;
+border: none;
+padding: 0.625em;
+border-radius: 0.625em;
+margin-top: 1em;
+font-family: pepitoB;
+font-size: 1.25em;
 }
 footer div p {
     font-family: pepitoB;
-    font-size: 20px;
-width: 152px;
-height: 54px;
-left: 83px;
-top: 1002px
+font-size: 1em;
+width: 9.5em;
+height: 3.375em;
+left: 5.1875em;
+top: 1002px;
 }
 .profilePhoto{
     background: url(../source/profilePhoto.png) no-repeat center center;
-    background-size:cover;
-    position: relative;
-    height: 1240px;
+    background-size: cover;
+position: relative;
+height: 62.5em;
 }
 .profilePhoto button{
-    bottom: 40px;
-    left: 350px;
-    background: rgba(217, 217, 217, 0.5);
-    color: #222222;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    font-family: pepitoB;
-    font-size: 30px;
-    border: none;
+    bottom: 3.125em;
+left: 21.875%;
+background: rgba(217, 217, 217, 0.5);
+color: #222222;
+position: absolute;
+display: flex;
+align-items: center;
+padding: 0.625em;
+font-family: pepitoB;
+font-size: 1.5em;
+border: none;
 }
 
 .profilePhoto span{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    border-radius: 50%;
-    padding: 4px;
-    width: 10px;
-    height: 10px;
-    color: #000;
-    width: 10px;
+justify-content: center;
+align-items: center;
+background: #fff;
+border-radius: 50%;
+padding: 0.25em;
+width: 0.625em;
+height: 0.625em;
+color: #000;
+width: 0.625em;
 
 }
 .profilePhoto span img {
-    width: 75px;
-    height: auto;
-    padding-left: 25px;
+    width: 4.6875em;
+height: auto;
+padding-left: 1.5625em;
 }
 #boton-1 {
-  display: inline-block;
-  width: 125px;
-  height: 25px;
-  font-size: 20px;
+    display: inline-block;
+    width: 7.8125em;
+    height: 3.125em;
+    font-size: 1em;
 }
 
 #boton-2 {
-  display: inline-block;
-  width: 125px;
-  height: 25px;
+    display: inline-block;
+    width: 7.8125em;
+    height: 3.125em;
+    font-size: 1em;
 }
 
 #Experiencia {
-    margin: 20px 10px;
+    margin: 1.25em 0.625em;
 }
 
 .experiencias {
-  height: 1000px; /* Altura fija del contenedor */
+  height: 40em; /* Altura fija del contenedor */
   overflow-y: scroll; /* Hacer scrollable el contenido verticalmente */
 }
 
 .experiencia {
-  margin-bottom: 50px; /* Espacio entre experiencias */
+  margin-bottom: 1.5625em; /* Espacio entre experiencias */
 }
 
 .experiencia h2 {
-  border-bottom: 1px solid #ccc; /* Subrayar los títulos */
-  padding-bottom: 5px; /* Espacio entre el título y la descripción */
+    border-bottom: 0.1em solid #ccc;
+    padding-bottom: 0.3125em /* Espacio entre el título y la descripción */
 }
 
 .experiencia {
@@ -248,10 +252,10 @@ div {
 }
 
 .experiencia img {
-  float:right;
-  margin-right: 20px;
-  width: 100px;
-  height: 50px;
+    float:right;
+    margin-right: 1.33em;
+    width: 10em;
+    height: 5em;
 }
 img {
     display:block ;
@@ -279,35 +283,33 @@ figure{
 }
 
 .Form-Registro{
-    width: 400px;
-    background: #6f4cfa;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: pepitoB;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
+    width: 80%;
+  max-width: 31.25em;
+  background: #6f4cfa;
+  padding: 1.875em;
+  margin: auto;
+  margin-top: 6.25em;
+  border-radius: 0.25em;
+  color: #fff;
+  box-shadow: 0.438em 0.813em 2.313em #000;
 }
 .Form-Registro h4{
- font-size: 20px ;
- margin-bottom: 20px;
+    font-size: 1.25em;
+    margin-bottom: 1.25em;
 }
 .Controls {
     width: 100%;
-    background-color: #f7f7f7;
-    padding: 4px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px;
-    font-family: pepito;
-    font-size: 18px;
+  background-color: #f7f7f7;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  margin-bottom: 1em;
+  border: 0.063em;
 }
 .Form-Registro p{
-    height: 40px;
+    height: 2.5em;
     text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 1.125em;
+    line-height: 2.5em;
 }
 .Form-Registro a{
     color: white;
@@ -321,14 +323,8 @@ figure{
     width: 100%;
     background: #ffffff;
     border: none;
-    padding: 12px;
+    padding: 0.75em;
     color: #6f4cfa;
-    margin: 16px 0;
-    font-size: 16px;
-    font-family: pepitoB;
-    border-radius: 8px ;
-}
-.lobito {
-    padding: 15%;
-    margin-top: 22px;
+    margin: 1em 0;
+    font-size: 1em
 }
