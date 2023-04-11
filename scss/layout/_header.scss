@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid $header-bg-color;
+    align-items: center;
+    gap: 20px;
+    height: 5%;
+
+    figure {
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 60px;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $header-link-color;
+                    font-size: $header-font-size;
+                    font-family: $header-font-family;
+                    font-weight: $header-font-weight;
+                }
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        button.boton.Charlemos#boton-1 {
+            background: $header-button-bg;
+            height: $header-button-height;
+            font-family: $header-button-font-family;
+            font-weight: $header-font-weight;
+            border-radius: $header-button-border-radius;
+            padding-left: $header-button-padding;
+        }
+    }
+}

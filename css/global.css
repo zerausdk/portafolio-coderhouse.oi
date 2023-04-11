@@ -1,0 +1,97 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #111;
+  align-items: center;
+  gap: 20px;
+  height: 5%; }
+  header figure img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px; }
+    header nav ul li a {
+      text-decoration: none;
+      color: #111;
+      font-size: 1.1em;
+      font-family: "pepito";
+      font-weight: bold; }
+  header a {
+    text-decoration: none; }
+    header a button.boton.Charlemos#boton-1 {
+      background: #fff;
+      height: 30px;
+      font-family: "pepitoB";
+      font-weight: bold;
+      border-radius: 10px;
+      padding-left: 12px; }
+
+main {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 73px); }
+  main article {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px; }
+  main .presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; }
+    main .presentacion h1 {
+      font-family: pepitoB;
+      font-size: 60px;
+      margin: 30px 10px;
+      text-align: right 50px; }
+      main .presentacion h1 span {
+        background: #481EF1;
+        color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        font-size: 40px; }
+    main .presentacion p {
+      font-family: pepito; }
+    main .presentacion .presentacionOpciones button {
+      background-color: #481EF1;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out; }
+      main .presentacion .presentacionOpciones button:hover {
+        background-color: #fff;
+        color: #481EF1; }
+    main .presentacion .presentacionOpciones p {
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: #481EF1;
+      font-weight: bold;
+      text-align: right;
+      margin-top: 10px; }
+    main .presentacion .presentacionSkills {
+      display: flex;
+      gap: 20px; }
+      main .presentacion .presentacionSkills div {
+        text-align: center; }
+        main .presentacion .presentacionSkills div h3 {
+          font-size: 50px;
+          color: #481EF1;
+          font-family: pepitoB; }
+        main .presentacion .presentacionSkills div p {
+          font-family: pepito;
+          margin-top: 10px; }
+        main .presentacion .presentacionSkills div img {
+          width: 70%;
+          margin: auto;
+          display: block; }
+  main .profilePhoto {
+    background-image: url("../source/profilePhoto.png");
+    background-position: right;
+    background-size: cover; }

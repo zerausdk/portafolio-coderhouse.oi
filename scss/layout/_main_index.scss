@@ -1,0 +1,95 @@
+main {
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 73px);
+
+    article {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .presentacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-family: pepitoB;
+            font-size: 60px;
+            margin: 30px 10px;
+            text-align: right 50px;
+
+            span {
+                background: #481EF1;
+                color: #fff;
+                padding: 10px;
+                border-radius: 15px;
+                box-sizing: border-box;
+                font-size: 40px;
+            }
+        }
+
+        p {
+            font-family: pepito;
+        }
+
+        .presentacionOpciones {
+            button {
+                background-color: #481EF1;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #481EF1;
+                }
+            }
+
+            p {
+                cursor: pointer;
+                font-size: 1.2rem;
+                color: #481EF1;
+                font-weight: bold;
+                text-align: right;
+                margin-top: 10px;
+            }
+        }
+        .presentacionSkills {
+            display: flex;
+            gap: 20px;
+
+            div {
+                text-align: center;
+
+                h3 {
+                    font-size: 50px;
+                    color: #481EF1;
+                    font-family: pepitoB;
+                }
+
+                p {
+                    font-family: pepito;
+                    margin-top: 10px;
+                }
+
+                img {
+                    width: 70%;
+                    margin: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+    .profilePhoto{
+        background-image: url("../source/profilePhoto.png");
+        background-position: right;
+        background-size: cover;
+        
+    }
+}
